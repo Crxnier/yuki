@@ -189,8 +189,8 @@ class Settings {
   autoRequeueTimer = 10;
 
   @ButtonProperty({
-    name: "Easier warps",
-    description: "Warp command are always on, all it does it remove the need for /warp e.g. /warp kuudra => /kuudra",
+    name: "Easier warps list",
+    description: "Get the list of warps",
     category: "Miscellaneous",
     subcategory: "Commands",
     placeholder: "List of all warps"
@@ -198,6 +198,14 @@ class Settings {
   warpList(){
     java.awt.Desktop.getDesktop().browse(new java.net.URI("https://hypixel-skyblock.fandom.com/wiki/Fast_Travel"));
   }
+
+  @SwitchProperty({
+    name: "Easier Warps",
+    description: "Enable typing typing /<warp name> instead of /warp <warp name>, eg /warp isle => /isle",
+    category: "Miscellaneous",
+    subcategory: "Commands",
+  })
+  easierWarpsEnabled = false;
 
   @SwitchProperty({
     name: "Rag axe notifier",
