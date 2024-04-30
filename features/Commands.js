@@ -6,115 +6,115 @@ const prefix = consts.prefix
 //Warps
 
 register("command", () => {
-    ChatLib.command("warp castle");
+    if(Settings.easierWarpsEnabled) ChatLib.command("warp castle");
 }).setName("castle").setAliases("ruin");
 
 register("command", () => {
-    ChatLib.command("warp museum");
+    if(Settings.easierWarpsEnabled) ChatLib.command("warp museum");
 }).setName("museum")
 
 register("command", () => {
-    ChatLib.command("warp wizard");
+    if(Settings.easierWarpsEnabled) ChatLib.command("warp wizard");
 }).setName("wizard").setAliases("wiz");
 
 register("command", () => {
-    ChatLib.command("warp da");
+    if(Settings.easierWarpsEnabled) ChatLib.command("warp da");
 }).setName("da").setAliases("darkauction");
 
 register("command", () => {
-    ChatLib.command("warp crypt");
+    if(Settings.easierWarpsEnabled) ChatLib.command("warp crypt");
 }).setName("crypt")
 
 register("command", () => {
-    ChatLib.command("warp barn");
+    if(Settings.easierWarpsEnabled) ChatLib.command("warp barn");
 }).setName("barn")
 
 register("command", () => {
-    ChatLib.command("warp desert");
+    if(Settings.easierWarpsEnabled) ChatLib.command("warp desert");
 }).setName("desert")
 
 register("command", () => {
-    ChatLib.command("warp trapper");
+    if(Settings.easierWarpsEnabled) ChatLib.command("warp trapper");
 }).setName("trapper").setAliases("trap");
 
 register("command", () => {
-    ChatLib.command("warp park");
+    if(Settings.easierWarpsEnabled) ChatLib.command("warp park");
 }).setName("park")
 
 register("command", () => {
-    ChatLib.command("warp jungle");
+    if(Settings.easierWarpsEnabled) ChatLib.command("warp jungle");
 }).setName("jungle")
 
 register("command", () => {
-    ChatLib.command("warp howl");
+    if(Settings.easierWarpsEnabled) ChatLib.command("warp howl");
 }).setName("howlingcave").setAliases("howl");
 
 register("command", () => {
-    ChatLib.command("warp gold");
+    if(Settings.easierWarpsEnabled) ChatLib.command("warp gold");
 }).setName("gold")
 
 register("command", () => {
-    ChatLib.command("warp dwarves");
+    if(Settings.easierWarpsEnabled) ChatLib.command("warp dwarves");
 }).setName("dwarf").setAliases("mines","dwarves");
 
 register("command", () => {
-    ChatLib.command("warp nucleus");
+    if(Settings.easierWarpsEnabled) ChatLib.command("warp nucleus");
 }).setName("nucleus").setAliases("nuke");
 
 register("command", () => {
-    ChatLib.command("warp spider");
+    if(Settings.easierWarpsEnabled) ChatLib.command("warp spider");
 }).setName("spider").setAliases("den")
 
 register("command", () => {
-    ChatLib.command("warp nest");
+    if(Settings.easierWarpsEnabled) ChatLib.command("warp nest");
 }).setName("nest")
 
 register("command", () => {
-    ChatLib.command("warp arachne");
+    if(Settings.easierWarpsEnabled) ChatLib.command("warp arachne");
 }).setName("arachne").setAliases("sanctuary");
 
 register("command", () => {
-    ChatLib.command("warp end");
+    if(Settings.easierWarpsEnabled) ChatLib.command("warp end");
 }).setName("end")
 
 register("command", () => {
-    ChatLib.command("warp drag");
+    if(Settings.easierWarpsEnabled) ChatLib.command("warp drag");
 }).setName("dragon").setAliases("drag");
 
 register("command", () => {
-    ChatLib.command("warp seplture");
+    if(Settings.easierWarpsEnabled) ChatLib.command("warp seplture");
 }).setName("void").setAliases("sepulture");
 
 register("command", () => {
-    ChatLib.command("warp isle");
+    if(Settings.easierWarpsEnabled) ChatLib.command("warp isle");
 }).setName("nether").setAliases("crimson", "isle");
 
 register("command", () => {
-    ChatLib.command("warp smold");
+    if(Settings.easierWarpsEnabled) ChatLib.command("warp smold");
 }).setName("smold").setAliases("smoldering");
 
 register("command", () => {
-    ChatLib.command("warp kuudra");
+    if(Settings.easierWarpsEnabled) ChatLib.command("warp kuudra");
 }).setName("kd").setAliases("koodra", "kuudra", "skull");
 
 register("command", () => {
-    ChatLib.command("warp wasteland");
+    if(Settings.easierWarpsEnabled) ChatLib.command("warp wasteland");
 }).setName("wasteland").setAliases("waste");
 
 register("command", () => {
-    ChatLib.command("warp scarleton");
+    if(Settings.easierWarpsEnabled) ChatLib.command("warp scarleton");
 }).setName("scarleton").setAliases("scare");
 
 register("command", () => {
-    ChatLib.command("warp dragontail");
+    if(Settings.easierWarpsEnabled) ChatLib.command("warp dragontail");
 }).setName("dragontail").setAliases("dragont");
 
 register("command", () => {
-    ChatLib.command("warp Garden")
+    if(Settings.easierWarpsEnabled) ChatLib.command("warp Garden")
 }).setName("garden")
 
 register("command", () => {
-    ChatLib.command("warp deep")
+    if(Settings.easierWarpsEnabled) ChatLib.command("warp deep")
 }).setName("deep")
 
 //Coords
